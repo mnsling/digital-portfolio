@@ -17,7 +17,7 @@ export const Footer = () => (
         
         <div className="flex flex-col gap-4 w-full md:w-auto">
           <a 
-            href="mailto:your-email@gmail.com" 
+            href="mailto:m.nicklausling@gmail.com" 
             className="px-10 py-5 bg-white text-brand-blue rounded-full font-bold text-center hover:scale-105 transition-transform shadow-lg"
           >
             Send an Email
