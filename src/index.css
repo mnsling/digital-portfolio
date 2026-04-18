@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #0047AB;
+  --color-bg-white: #ffffff;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --animate-reveal: reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-[--color-bg-white] text-slate-900 font-sans antialiased;
+  }
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-slate-100 shadow-xl shadow-slate-100/50;
+}
+
+.bento-card {
+  @apply rounded-[3rem] p-10 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2;
+}
