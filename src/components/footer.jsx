@@ -28,7 +28,7 @@ export const Footer = () => (
       {/* Copyright area */}
       <div className="mt-20 flex flex-col md:flex-row justify-between items-center border-t border-slate-100 pt-8 gap-4">
         <p className="text-slate-400 text-[10px] uppercase tracking-[0.3em]">
-          &copy; 2026 • Your Name
+          &copy; 2026 • Nicklaus Ling
         </p>
         <p className="text-slate-400 text-[10px] uppercase tracking-[0.3em]">
           Ateneo de Davao University • Digital Portfolio
